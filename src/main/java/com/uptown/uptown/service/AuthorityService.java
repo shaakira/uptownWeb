@@ -1,11 +1,10 @@
 package com.uptown.uptown.service;
 
-import com.uptown.uptown.entity.Authority;
-import com.uptown.uptown.entity.AuthorityType;
-import com.uptown.uptown.entity.Role;
-import com.uptown.uptown.repository.AuthorityRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+        import com.uptown.uptown.entity.Authority;
+        import com.uptown.uptown.entity.AuthorityType;
+        import com.uptown.uptown.repository.AuthorityRepository;
+        import org.springframework.beans.factory.annotation.Autowired;
+        import org.springframework.stereotype.Service;
 
 @Service
 public class AuthorityService {

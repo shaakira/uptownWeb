@@ -1,9 +1,8 @@
 package com.uptown.uptown.service;
 
-import com.uptown.uptown.dto.UserDTO;
+
 import com.uptown.uptown.entity.Authority;
 import com.uptown.uptown.entity.AuthorityType;
-import com.uptown.uptown.entity.Role;
 import com.uptown.uptown.entity.User;
 import com.uptown.uptown.repository.UserRepository;
 import com.uptown.uptown.request.AuthRequest;
@@ -12,8 +11,6 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
